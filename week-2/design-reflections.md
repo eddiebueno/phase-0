@@ -25,4 +25,4 @@ User experience design is the design in which the user feels most comfortable so
 Which parts of the challenge did you find tedious?
 The most tedious part of this challenge would be planning the site-map that I have to come up with. I felt like this is the hardest part for me.
 
-![A](/eddiebueno/phase-0/blob/master/week-2/imgs/site-map.png "Site-Map")
+![A](/week-2/imgs/site-map.png "Site-Map")
