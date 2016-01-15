@@ -1,0 +1,70 @@
+body{
+	color: navy;
+	background-color: white;
+	font-size:smaller;
+}
+
+a{
+	color:purple;
+	font-size:large;
+}
+
+/*check back after*/
+a:visted{
+	color:red;
+}
+
+h4 {
+   display:block;
+}h4:after {
+   content:"\a";
+   white-space: pre;
+}
+
+div{
+	-webkit-column-count:2;
+}
+
+li{
+	color:black;
+}
+
+header{
+	font-weight: bolder;
+	font-size:smaller;
+	text-align:center;
+
+}
+
+span{
+	font-size:200%;
+}
+
+.hline{
+	width:100%;
+	height:1px;
+	background:navy; 
+}
+
+footer{
+
+}
+
+/*
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+Make sure your link is correctly linked through the right directories.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+We used text-align as well as coulmn count to help with positioning. Pretty hard, although after looking at the html it seemed that they used html more so than css.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+We used
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+Yeah we added a few classes and ids but some of them did not work correctly. However we were able to get our hline class to work in order to show a line in the tex.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+The actual site was cleaner. The indentation was on point. It definitely looked more professional. 
+
+*/
