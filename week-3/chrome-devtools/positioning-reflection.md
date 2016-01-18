@@ -24,16 +24,16 @@ Margin - Clears an area outside the border. The margin is transparent
 What was your impression of this challenge overall? (love, hate, and why?)
 I loved that it was challenging. I hated it that it took so long. It is super tedious when this is all new to you. When you play around with this an get used to it, it will definitely get easier.
 
-![image](/imgs/original.png "Original")
-![image](/imgs/ex1.png "Exercise 1")
-![image](/imgs/ex2.png "Exercise 2")
-![image](/imgs/ex3.png "Exercise 3")
-![image](/imgs/ex4.png "Exercise 4")
-![image](/imgs/ex5.png "Exercise 5")
-![image](/imgs/ex6.png "Exercise 6")
-![image](/imgs/ex7.png "Exercise 7")
-![image](/imgs/ex8.png "Exercise 8")
-![image](/imgs/ex9.png "Exercise 9")
+![image](/week-3/chrome-devtools/imgs/original.png "Original")
+![image](/week-3/chrome-devtools/imgs/ex1.png "Exercise 1")
+![image](/week-3/chrome-devtools/imgs/ex2.png "Exercise 2")
+![image](/week-3/chrome-devtools/imgs/ex3.png "Exercise 3")
+![image](/week-3/chrome-devtools/imgs/ex4.png "Exercise 4")
+![image](/week-3/chrome-devtools/imgs/ex5.png "Exercise 5")
+![image](/week-3/chrome-devtools/imgs/ex6.png "Exercise 6")
+![image](/week-3/chrome-devtools/imgs/ex7.png "Exercise 7")
+![image](/week-3/chrome-devtools/imgs/ex8.png "Exercise 8")
+![image](/week-3/chrome-devtools/imgs/ex9.png "Exercise 9")
 
 
 
