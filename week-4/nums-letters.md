@@ -1,3 +1,13 @@
+Links to section:
+
+2.2.1: https://github.com/eddiebueno/phase-0/blob/master/week-4/defining-variables.rb
+
+2.2.2: https://github.com/eddiebueno/phase-0/blob/master/week-4/simple-string.rb
+
+2.2.3: https://github.com/eddiebueno/phase-0/blob/master/week-4/basic-math.rb
+
+
+
 
 What does puts do?
 Puts writes onto the screen whatever you input after it. It returns nil and prints the output to the console with a new line.
