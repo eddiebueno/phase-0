@@ -35,3 +35,7 @@ print "Now let's make it BIGGER and BETTER! ANNNNND KABAM!!! #{fav_number +1}. N
 
 # What was confusing about this material? What made sense?
 # The material was pretty straight forward. Everything made sense there was no part that was difficult to understand.
+
+Links to sections:
+4.3.1: https://github.com/eddiebueno/phase-0/blob/master/week-4/address/my_solution.rb
+4.3.2: https://github.com/eddiebueno/phase-0/blob/master/week-4/math/my_solution.rb
