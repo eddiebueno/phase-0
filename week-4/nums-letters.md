@@ -39,11 +39,11 @@ end
 
 How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 Runy handles these with the use of these symbols
-+ : addition
-- : subtraction
-* : multiplication
-/ : division 
-% : modulus (meaning to find the remainder of dividing numbers)
+"+" : addition
+"-" : subtraction
+"*" : multiplication
+"/" : division 
+"%" : modulus (meaning to find the remainder of dividing numbers)
 
 What is the difference between integers and floats?
 Integers are numbers without decimal values. Floats are numbers with decimal places. 1 is an integer. 1.0 is a float. They equal the same value but they do not equal each other because they are not the same charcters.
