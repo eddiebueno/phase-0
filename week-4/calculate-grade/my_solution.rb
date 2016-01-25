@@ -2,8 +2,6 @@
 
 # I worked on this challenge [ with: John Pults ].
 
-
-
 # Your Solution Below
 
 def get_grade average
