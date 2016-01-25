@@ -1,0 +1,22 @@
+header{
+	background-color:blue;
+}
+
+.column-1{
+	float: left;
+	background-color:red;
+	width:48%;
+	padding:10px;
+}
+
+.column-2{
+	float:right;
+	background-color:green;
+	width:48%;
+	padding:10px;
+}
+
+
+footer{
+	clear:both;
+}
