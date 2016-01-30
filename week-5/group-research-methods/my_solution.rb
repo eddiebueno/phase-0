@@ -1,6 +1,6 @@
 # Research Methods
 
-# I spent [] hours on this challenge.
+# I spent [1] hours on this challenge.
 
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
@@ -36,17 +36,23 @@ end
 
 # Person 3
 def my_array_sorting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  #source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  new_array = Array.new(source.sort_by(&:to_s))
+  return new_array
 end
 
 def my_hash_sorting_method(source)
-   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+   #source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+new_array = Array.new(source.sort_by {|a| a[1]})
+return new_array
+
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+# The my_array_sorting_method sorts the array as if each element were a string which is what &:to_s is doing
+# The my_hash_sorting_method sorts the hash based on the value of the key so that is why I said |a| a[1] because when it is
+# sorted it will be put into arrays that have a key and it's value. The value is at index 1 so that is why it is a[1] because 
+# we are sorting by age rather than by the name.
 
 
 # Person 4
