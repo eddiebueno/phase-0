@@ -123,7 +123,18 @@ I learned so much about enumerables in this assignment. When explaining my metho
 
 # Release 3: Reflect!
 # What did you learn about researching and explaining your research to others?
-#
-#
-#
-#
+
+=begin
+What was your experience like researching for Ruby methods. Did you find them quickly? How easy was it to implement once you found one?
+Some were harder to implement than others, specifically because the examples used it in a different manner.
+Did you find any methods you thought would work but didn't? What made you think they would work? How did you determine they didn't?
+I found myself getting errors from using class-specific methods, and I had to convert to the correct data type, find a new route, or make sure my order of method operations was correct.
+How does the method you chose iterate through and modify information in a data structure?
+I used array and hash ::map method, which adds a desired value/expression to specific indexes.
+Is the method you implemented destructive or non-destructive?
+Both methods are destructive, as specifically stated in directions.
+What did you learn from reading your accountability-group member's explanations on their solutions?
+People had to do research and overall I was impressed with the efficiency and effectiveness of their solutions.
+What did you learn about researching and explaining your research to others?
+It always solidifies learning when having to explain things to others.
+=end
