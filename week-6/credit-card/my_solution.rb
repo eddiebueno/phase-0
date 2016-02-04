@@ -100,3 +100,19 @@ end
 
 
 # Reflection
+=begin
+	
+
+What was the most difficult part of this challenge for you and your pair?
+I think the most difficult part of this challenge was 
+
+What new methods did you find to help you when you refactored?
+We used .flatten! and .split. Flatten just put any arrays in arrays into one array. Split took apart a string at whatever 
+part we decided, in this case we used '' so it split after every character.
+
+What concepts or learnings were you able to solidify in this challenge?
+I solidified my refactoring skills. Before I would have a hard time refactoring but this time we were able to get a lot done
+so that the code was easier to read.
+
+	
+=end
