@@ -6,6 +6,7 @@
 // Write your code below.
 
 
+var secretNumber = 7, password = 'just open the door', allowedIn = false, members = ["John", 1, 2, "Mary"] 
 
 
 
