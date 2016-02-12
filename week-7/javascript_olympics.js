@@ -86,3 +86,21 @@ console.log(michaelPhelps.constructor === Athlete)
 console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps.quote)
 
 // Reflection
+/*
+
+
+What JavaScript knowledge did you solidify in this challenge?
+I solidified how to use javascript resources. i know how to go about looking
+for the material that I need.
+
+What are constructor functions?
+Constructor functions are functions that construct somthing. So if I were to construct a new something,
+that would be considered a constructor function. This usually happens when you use the word new. So like
+new Array would give whatever you are setting that new array to the constructor
+property.
+
+How are constructors different from Ruby classes (in your research)?
+Constructors are literally just the things that 
+
+
+*/
