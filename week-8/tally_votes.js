@@ -112,7 +112,24 @@ console.log(officers)
 // __________________________________________
 // Reflection
 
+/*
 
+What did you learn about iterating over nested objects in JavaScript?
+I learned that when you use the for in loop, the key you use does not take the full properties
+of the object itself. It will only take the value and not the whole object as a whole. That is why
+we had to call object[key], because we needed the information in the object.
+
+Were you able to find useful methods to help you with this?
+Usin the for in loop really helped, as well as the sort function which was looked online to help.
+The sort function is a little confusing but from what I can understand it is going through
+and comparing values and placing them in a way where it is sorting them, in this instance from highest
+to lowest.
+
+What concepts were solidified in the process of working through this challenge?
+I feel like I can iterate through nested objects in JavaScript.
+
+
+*/
 
 
 
