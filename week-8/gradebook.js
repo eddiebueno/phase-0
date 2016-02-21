@@ -1,6 +1,6 @@
 /*
 Gradebook from Names and Scores
-I worked on this challenge [by myself, with:]
+I worked on this challenge [by myself, with:Jack Hamilton, Eddie Bueno]
 This challenge took me [#] hours.
 You will work with the following two variables.  The first, students, holds the names of four students.
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
@@ -8,12 +8,12 @@ variables match (i.e., 'Joseph' is the first element in students; his scores are
 Do not alter the students and scores code.
 */
 
-var students = ["Joseph", "Susan", "William", "Elizabeth"]
+var students = ["Joseph", "Susan", "William", "Elizabeth"];
 
 var scores = [ [80, 70, 70, 100],
                [85, 80, 90, 90],
                [75, 70, 80, 75],
-               [100, 90, 95, 85] ]
+               [100, 90, 95, 85] ];
 
 
 
@@ -23,6 +23,39 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+// Initial Solution:
+
+// var gradebook = {
+  
+  
+//   addScore: function (name,score){  
+//     gradebook[name]["testScores"].push(score)
+  
+//   },
+
+//   getAverage: function (name){
+//     return average(gradebook[name]["testScores"]);
+//   },
+
+// };
+
+// var average = function(array){
+//     var sum = 0;
+//     for (var i =0; i < array.length; i++){
+//       sum += array[i];
+//     }
+//     return sum / array.length;
+// };
+
+// gradebook["Joseph"]={};
+// gradebook["Susan"]={};
+// gradebook["William"]={};
+// gradebook["Elizabeth"]={};
+
+// gradebook["Joseph"]["testScores"] = scores[0];
+// gradebook["Susan"]["testScores"] = scores[1];
+// gradebook["William"]["testScores"] = scores[2];
+// gradebook["Elizabeth"]["testScores"] = scores[3];
 
 
 
@@ -35,19 +68,51 @@ var scores = [ [80, 70, 70, 100],
 
 
 
+var gradebook = {
+  
+  
+  addScore: function (name,score){  
+    gradebook[name]["testScores"].push(score)
+  
+  },
+
+  getAverage: function (name){
+    return average(gradebook[name]["testScores"]);
+  },
+};
+
+var average = function(array){
+    var sum = array.reduce(function(a,b) { return a + b; });
+    return sum / array.length;
+};
 
 
+gradebook["Joseph"]={};
+gradebook["Susan"]={};
+gradebook["William"]={};
+gradebook["Elizabeth"]={};
 
+gradebook["Joseph"]["testScores"] = scores[0];
+gradebook["Susan"]["testScores"] = scores[1];
+gradebook["William"]["testScores"] = scores[2];
+gradebook["Elizabeth"]["testScores"] = scores[3];
 
 
 // __________________________________________
 // Reflect
 
 
+// What did you learn about adding functions to objects?
+  
+// I learned that adding functions inside an object requires a colon, which is different from the "constructor" function syntax which uses equal signs  and not using the keyword "var". But adding a function outside an object DOES require keyword "var" and an equal sign. 
+  
+// How did you iterate over nested arrays in JavaScript?
 
+// We initially did the for loop, which is very intuitive. In the refactoring, we used built-in method "reduce" which one of us had used previously in Ruby and worked well with summing an array.
 
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work?
 
-
+// Obviously the reduce() method. It iterates over each element, passes the previous value and the current element value as arguments to a supplied function. As such, if you provide it a function that sums the two values, you'll eventually get the sum total of the entire array.
 
 
 
